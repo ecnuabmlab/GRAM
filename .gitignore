@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+results/
+logs/
+
+# Data files are not distributed with the repository.
+data/*
+!data/README.md
+!data/checkpoints/
+!data/checkpoints/*.pt
